@@ -1,0 +1,92 @@
+.head-section{background-image:url(../images/hand.png),linear-gradient(to right,rgba(183,18,69, 0.9),rgba(49,58,127,0.9)), url(http://via.placeholder.com/940x627);}
+.about-section i
+{
+  background: -webkit-linear-gradient(#30397F, #B71C47);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.owl-theme .owl-nav [class*="owl-"]
+{
+  color: #B71C47
+}
+.testmonial-para:before
+{
+  background: -webkit-linear-gradient(#30397F, #B71C47);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.owl-theme .owl-nav [class*=owl-],.owl-theme .owl-nav [class*=owl-]:hover
+{
+  background-color: #B71C47
+}
+h2{
+  border-bottom: 1px dotted #B71C47
+}
+h2:after
+{
+  color: #B71C47;
+}
+.btn-danger{
+  background-color: #B71C47;
+}
+.btn-default
+{
+  color: #B71C47;
+}
+.navbar-default .navbar-nav li  a:hover{color: #B71C47}
+.left-info div:hover,.right-info div:hover{background-image: linear-gradient(to right,rgba(183,18,69, 0.9),rgba(49,58,127,0.9));}
+.main-nav-scrolled {background: linear-gradient(to right,rgba(183,18,69, 0.9),rgba(49,58,127,0.9));}
+.video-section{background-image: linear-gradient(to right,rgba(183,18,69, 0.9),rgba(49,58,127,0.9)), url(http://via.placeholder.com/1280x853);}
+.testmonial-section{background-image: linear-gradient(to right,rgba(183,18,69,0.9),rgba(49,58,127,0.8)),url(../images/text.png);}
+.screenshots-section .owl-theme .owl-nav [class*="owl-"], .owl-theme .owl-nav [class*="owl-"]:hover
+{background-image: linear-gradient(to right,rgba(183,18,69, 0.9),rgba(49,58,127,0.9)) !important;}
+.screenshots-section
+{
+  background-image:url(../images/dots5c3.png);
+}
+.plans-section
+{
+  background-image:url(../images/dots3c3.png);}
+.team-section
+{
+  background-image:url(../images/testc3.png);
+}
+.contactus-section
+{
+  background-image:url(../images/dots4c3.png);}
+.counter-section
+{
+  background-image: linear-gradient(to right,rgba(183,18,69, 1),rgba(49,58,127,0.9)),url(http://via.placeholder.com/940x614);
+}
+.overlay{background: linear-gradient(to bottom right,rgba(183,18,69, 0.9),rgba(49,58,127,0.9));}
+.stnd .head-plan{background: linear-gradient(to right,rgba(183,18,69, 0.9),rgba(49,58,127,0.9));}
+.plan:hover .head-plan,.plan:hover a
+{background: linear-gradient(to right,rgba(183,18,69, 0.9),rgba(49,58,127,0.9));}
+.download-section
+{
+  background-image: linear-gradient(to right,rgba(183,18,69, 0.9),rgba(49,58,127,0.9)),url(../images/text.png);
+}
+.contactus-section button
+{
+  background: linear-gradient(to right,rgba(183,18,69, 0.9),rgba(49,58,127,0.9));
+}
+footer
+{
+  background:linear-gradient(to right,rgba(183,18,69, 0.9),rgba(49,58,127,0.9));
+}
+.borderco
+{
+  border-color: #D4365F;
+}
+.testmonial-section h2:after
+{
+  background-color: #874477;
+}
+.download-section h2:after
+{
+background-color: #7A356B;
+}
+.plans-section .btn-default{border-color: #5C3E7A}
+.spinner-wrapper {
+  background:linear-gradient(to right,rgba(183,18,69,1),rgba(49,58,127,1));
+}

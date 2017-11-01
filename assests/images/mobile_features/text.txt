@@ -1,0 +1,18 @@
+Task Update
+Dispatchers can update their task from point of pickup to point of delivery.
+
+Expense Record
+Dispatchers can record expense spent on vehicle management, be it maintenance  or repairs.
+
+Pool
+Dispatchers can choose task nearest to them, which they can execute quickly, for example picking up a 
+Package closest to dispatchers location.
+
+Work history
+Dispatchers can view work history for better records and logistics reports.
+
+Instant Messaging
+Notify dispatchers with the instant messaging features, which can also work offline and is absolutely free.
+
+Barcode Scanning
+Dispatchers can scan packages picked up and to be delivered.
