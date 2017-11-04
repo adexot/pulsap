@@ -15,10 +15,7 @@
     <link rel="stylesheet" type="text/css" href="assests/css/main.css">
     <link rel="stylesheet" type="text/css" href="assests/css/responsive.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet">
-    <!--<link rel="stylesheet" type="text/css" href="assests/colors/color1.css">-->
-    <!--<link rel="stylesheet" type="text/css" href="assests/colors/color2.css">-->
-    <!--<link rel="stylesheet" type="text/css" href="assests/colors/color3.css">-->
-    <!--<link rel="stylesheet" type="text/css" href="assests/colors/color4.css">-->
+    
             <!--[if lt IE 9]>
       <script src="js/html5shiv.min.js"></script>
       <script src="js/respond.min.js"></script>
@@ -48,9 +45,10 @@
             <li id="js--aboutsection"><a href="#"><i class="fa fa-info-circle"></i>ABOUT</a></li>
             <li id="js--featuressection"><a href="#"><i class="fa fa-rocket"></i>FEATURES</a></li>
             <li id="js--clientssection"><a href="#"><i class="fa fa-users"></i>CLIENTS</a></li>
-            <li id="js--shotssection"><a href="#"><i class="fa fa-mobile"></i>SCREENSHOTS</a></li>
-            <li id="js--pricesplan"><a href="#"><i class="fa fa-shopping-cart"></i>PRICES</a></li>
+            <li id="js--pricesplan"><a href="#"><i class="fa fa-money"></i>PRICES</a></li>
             <li id="js--contactsection"><a href="#"><i class="fa fa-phone"></i>CONTACT</a></li>
+            <li class="btn-auth"><a href="#">SIGNUP</a></li>
+            <li class="btn-auth btn-login"><a href="#">LOGIN</a></li>
           </ul><!--END MENU LIST-->
           </div>
         </div>
@@ -59,27 +57,48 @@
 <section id="js--home-section" class="head-section padding200">
     <!--START OF NAVBAR-->
       <!--END OF NAVBAR-->
+      <div class="head__image">
+        <img src="assests/images/device.svg" width="700px" height="700px" alt="">
+      </div>
       <div class="container text-left">
         <div class="row head-info">
           <div class="col-md-6 col-xs-12">
-              <h1>LOGISTIC EXPENSE AND VEHICLE MANAGEMENT CENTER</h1><!--LEFT HEAD TITLE-->
-                <!--PARAGRAPH HEAD-->
-                <p class="lead">Keep track of your dispatch personnels, fleets and their maintenance renewal schedules.</p>
-                <a id="js--download-now" href="#" class="btn btn-default">DOWNLOAD NOW</a><!--DOWNLOAD BUTTON-->
-                <a id="js--price-plan" href="#" class="btn btn-success">PRICE PLANS</a><!--DOWNLOAD BUTTON--><br>
+              <ul>
+                <li>
+                  <img src="assests/images/checkbox.svg" width="30px" height="30px" alt="">
+                  <span class="head__list">Package Tracking</span>
+                </li>
+                <li>
+                  <img src="assests/images/checkbox.svg" width="30px" height="30px" alt="">
+                  <span class="head__list">Real-Time Status Updates</span>
+                </li>
+                <li>
+                  <img src="assests/images/checkbox.svg" width="30px" height="30px" alt="">
+                  <span class="head__list">Electronic Proof of Delivery</span>
+                </li>
+                <li>
+                  <img src="assests/images/checkbox.svg" width="30px" height="30px" alt="">
+                  <span class="head__list">Vehicle and Express Management</span>
+                </li>
+                <li>
+                  <img src="assests/images/checkbox.svg" width="30px" height="30px" alt="">
+                  <span class="head__list">Messaging (SMS and Free In-App)</span>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
 </section>
     <!--END OF HEAD SECTION-->
+
     <!--START OF ABOUT SECTION-->
 <section id="js--about-section" class="about-section padding70 text-center">
-  <h2>ABOUT APPGO</h2> <!--ABOUT HEAD TITLE-->
+  <h2>ABOUT PULSAP</h2> <!--ABOUT HEAD TITLE-->
     <div class="container">
       <div class="row">
           <div class="about-feat text-left about-left">
             <div class="col-lg-6">
-              <img class="img-responsive hidden-md hidden-xs hidden-sm" src="assests/images/banner/about_us.png" alt="2mobiles"><!--LEFT IMAGE MOBILES -->
+              <img class="img-responsive hidden-md hidden-xs hidden-sm" src="assests/images/desktop.png" alt="2mobiles"><!--LEFT IMAGE MOBILES -->
             </div>
             <div class="col-lg-6 about-right">
             <div class="col-xs-6"><!--FIRST-->
@@ -152,7 +171,7 @@
     </div><!--THIRD FEATURE-->
   </div>
   <div class="col-md-6 hidden-xs">
-    <img class="img-responsive hidden-xs hidden-sm" src="assests/images/banner/feature_phone.png" alt="mobile-center"><!--CENTER MOBILE MOCKUP-->
+    <img class="img-responsive hidden-xs hidden-sm" src="assests/images/feature-phone.png" alt="mobile-center"><!--CENTER MOBILE MOCKUP-->
   </div>
     <!--RIGHT FEATURES-->
   <div class="col-md-3 right-info">
@@ -181,28 +200,32 @@
 <div class="container">
   <div id="owl1" class="owl-carousel owl-theme text-left">
     <div class="fullitem"><!--FIRST TESTMONIAL -->
-      <p class="testmonial-para">The Expense Management tool in Pulsapp has really helped in cutting down expense, and also keeps record of how the company has been spending money.</p>
-      <img src="assests/images/clients/logo1.png" alt=""><!--IMAGE 1-->
+      <p class="testmonial-para">The Expense Management tool in Pulsapp has really helped in cutting down expense, and also keeps 
+        record of how the company has been spending money.
+        <img src="assests/images/clients/logo1.png" alt="">
+      </p>
+      
     </div><!--FIRST TESTMONIAL -->
     <div class="fullitem"><!--SECOND TESTMONIAL -->
-      <p class="testmonial-para">The task update functionality let me know the status of my dispatchals, I can know if they have accepted the task assigned to them, also if they are the point of pickup or point of delivery.</p>
-      <img src="assests/images/clients/logo2.png" alt=""><!--IMAGE 2-->
+      <p class="testmonial-para">The task update functionality let me know the status of my dispatchals, I can know if they have accepted 
+        the task assigned to them, also if they are the point of pickup or point of delivery.
+        <img src="assests/images/clients/logo2.png" alt="">
+      </p>
+      
     </div><!--SECOND TESTMONIAL -->
      <div class="fullitem"><!--THIRD TESTMONIAL -->
-      <p class="testmonial-para">The instant messaging feature is great, can still believe it's totally free and it works in an area with a bad network coverage.</p>
-      <img src="assests/images/clients/logo3.png" alt=""><!--IMAGE 3-->
+      <p class="testmonial-para">The instant messaging feature is great, can still believe it's totally free and it works in an area with 
+        a bad network coverage.
+        <img src="assests/images/clients/logo3.png" alt="">
+      </p>
+      
     </div><!--THIRD TESTMONIAL -->
     <div class="fullitem"><!--FOURTH TESTMONIAL -->
-     <p class="testmonial-para">The proof of delivery feature makes me so confident that packages get to my customer, and this means a lot to my business. </p>
-     <img src="assests/images/clients/logo4.png" alt=""><!--IMAGE 4-->
- </div><!--FOURTH TESTMONIAL -->
- <div class="fullitem"><!--FIFTH TESTMONIAL -->
-  <p class="testmonial-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam laboriosam et id dolore dolor, quisquam excepturi nostrum iusto dolorem, quae distinctio, nulla aut libero. </p>
-  <img src="assests/images/clients/logo2.png" alt="member"><!--IMAGE 5-->
-  <div class="testmonial-info text-center">
-  
-</div>
-</div><!--FIFTH TESTMONIAL -->
+     <p class="testmonial-para">The proof of delivery feature makes me so confident that packages get to my customer, and this means a lot to my business.
+        <img src="assests/images/clients/logo4.png" alt="">
+      </p>
+    </div><!--FOURTH TESTMONIAL -->
+ 
   </div>
 </div>
 </section>
@@ -283,51 +306,59 @@
         <div class="col-lg-4">
           <div class="plan">
           <div class="head-plan"><!--HEAD OF PLAN-->
-            <h3>PERSONAL</h3><!--NAME OF PLAN-->
-            <p>$30<span>/month</span></p><!--PLAN PRICE-->
+            <h3>BASIC</h3><!--NAME OF PLAN-->
+            <p class="plan-price">
+                <span>&#8358;50<small>/Order</small></span>
+                <span><small>OR</small></span>
+                <span>$0.1<small>/Order</small></span>
+            </p>
           </div>
           <div class="info-price">
             <ul class="list-unstyled"><!--PLAN INFO + ICONS-->
-              <li><i class="pe-7s-server"></i>20 GB FREE STORAGE</li>
-              <li><i class="pe-7s-refresh"></i>UNILIMITED REVISIONS</li>
-              <li><i class="pe-7s-headphones"></i>FULL SUPPORT</li>
-              <li><i class="pe-7s-mail"></i>EMAIL ACCOUNT</li>
+              <li><i class="pe-7s-server"></i>Unlimited Access</li>
             </ul><!--PLAN INFO + ICONS-->
-            <a href="#" class="btn btn-default">LEARN MORE</a><!--LEARN MORE BUTTON-->
+            <a href="#" class="btn btn-default">SUSCRIBE</a><!--LEARN MORE BUTTON-->
           </div>
         </div>
       </div>
       <div class="col-lg-4">
         <div class="plan stnd">
           <div class="head-plan"><!--HEAD OF PLAN-->
-            <h3>STANDARD</h3><!--NAME OF PLAN-->
-            <p>$50<span>/month</span></p><!--PLAN PRICE-->
+            <h3>PREMIUM</h3><!--NAME OF PLAN-->
+            <p class="plan-price">
+                <span>&#8358;150<small>/Order</small></span>
+                <span><small>OR</small></span>
+                <span>$0.3<small>/Order</small></span>
+            </p>
           </div>
           <div class="info-price">
             <ul class="list-unstyled"><!--PLAN INFO + ICONS-->
-              <li><i class="pe-7s-server"></i>20 GB FREE STORAGE</li>
-              <li><i class="pe-7s-refresh"></i>UNILIMITED REVISIONS</li>
-              <li><i class="pe-7s-headphones"></i>FULL SUPPORT</li>
-              <li><i class="pe-7s-mail"></i>EMAIL ACCOUNT</li>
+              <li>UNLIMITED ACCESS</li>
+              <li>LOGISTICS MANAGEMENT</li>
+              <li>VEHICLE MANAGEMENT</li>
+              <li>CUSTOM REPORT</li>
             </ul><!--PLAN INFO + ICONS-->
-            <a href="#" class="btn btn-default">LEARN MORE</a><!--LEARN MORE BUTTON-->
+            <a href="#" class="btn btn-default">SUSCRIBE</a><!--LEARN MORE BUTTON-->
           </div>
       </div>
     </div>
     <div class="col-lg-4">
       <div class="plan">
           <div class="head-plan"><!--HEAD OF PLAN-->
-            <h3>PREMIUM</h3><!--NAME OF PLAN-->
-            <p>$90<span>/month</span></p><!--PLAN PRICE-->
+            <h3>STANDARD</h3><!--NAME OF PLAN-->
+            <p class="plan-price">
+                <span>&#8358;100<small>/Order</small></span>
+                <span><small>OR</small></span>
+                <span>$0.2<small>/Order</small></span>
+            </p>
           </div>
           <div class="info-price">
             <ul class="list-unstyled"><!--PLAN INFO + ICONS-->
-              <li><i class="pe-7s-server"></i>20 GB FREE STORAGE</li>
-              <li><i class="pe-7s-refresh"></i>UNILIMITED REVISIONS</li>
-              <li><i class="pe-7s-headphones"></i>FULL SUPPORT</li>
-              <li><i class="pe-7s-mail"></i>EMAIL ACCOUNT</li>
+              <li>UNLIMITED ACCESS</li>
+              <li>LOGISTICS MANAGEMENT</li>
+              <li>VEHICLE MANAGEMENT</li>
             </ul><!--PLAN INFO + ICONS-->
-            <a href="#" class="btn btn-default">LEARN MORE</a><!--LEARN MORE BUTTON-->
+            <a href="#" class="btn btn-default">SUSCRIBE</a><!--LEARN MORE BUTTON-->
           </div>
           </div>
         </div>

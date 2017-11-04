@@ -47,9 +47,20 @@
 {
   background: linear-gradient(to right,rgba(71,94,102, 0.9),rgba(80,106,115,0.9));
 }
+.head__image{
+    display: none;
+}
+.head-info ul{
+    margin-top: -100px;
+}
+.head__list{
+    margin-left: 10px;
+    font-size: 1.2em;
+    color: #fff;
+  }
 .head-section
 {
-  background-image:linear-gradient(to right,rgba(71,94,102, 0.9),rgba(80,106,115,0.9)), url(../images/happy.jpg);
+  background-image:url(../images/bg.png),linear-gradient(to right,rgba(71,94,102, 0.9),rgba(80,106,115,0.9));;
 }
 .video-section h3{font-size:20px;}
 .video-section p{font-size: 17px;}
@@ -76,7 +87,25 @@
 /*-------Mobile Screen-----*/
 
 @media only screen and (max-width : 480px) {
+    .navbar-nav > li{display: block;}
   .head-section .btn-default{margin-bottom: 10px}
   .head-section a{margin-left: 20px}
 .video-section h3{font-size:17px;}
 .video-section p{font-size: 14px;}
+.head-section__button{margin-top: 10px;}
+.col-xs-6 {height: 250px;}
+.plan-price small{
+    font-size: 0.3em;
+  }
+  .plan-price span{
+    font-size: 0.6em !important;
+  }
+  .btn-login{
+    margin-top: 5px;
+    margin-left: 0;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .container .navbar-header, .container-fluid .navbar-header, .container .navbar-collapse, .container-fluid .navbar-collapse{margin-bottom: 0;padding-bottom: 20px;}
+  .navbar-nav{margin-top:0;}
+}

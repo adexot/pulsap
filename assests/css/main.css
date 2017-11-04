@@ -304,14 +304,33 @@ z-index: 999999;
 {
   margin-left: -16px;
 }
+
+.navbar-default .navbar-nav .btn-auth{
+  background-color: #fff;
+  color: #000;
+  border-radius: 30px;
+}
+.navbar-default .navbar-nav .btn-auth a{
+  color: #000;
+}
+.btn-login{
+  margin-left: 10px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
 /*------------04. START OF HEAD SECTION----------*/
 .head-section
 {
-  background-image:url(../images/banner/header_banner.jpg),linear-gradient(to right,rgba(71,94,102, 0.9),rgba(80,106,115,0.9)), url(http://via.placeholder.com/940x627);
+  background-image:url(../images/bg.png),linear-gradient(to right,rgba(71,94,102, 0.9),rgba(80,106,115,0.9));
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: auto;
+}
+.head__image{
+  position: absolute;
+  top: 30px;
+  right: 50px;
 }
 .head-section h1
 {
@@ -322,14 +341,46 @@ z-index: 999999;
 .head-section img
 {
   max-width: 110%;
-  margin-top: -60px;
+  /* margin-top: -60px; */
 }
 .head-section p{
   color: #FFF;
   margin-bottom: 40px;
 }
 .head-section .head-info a{margin-right: 20px}
-
+.head-info ul{
+  list-style: none;
+  margin-top: 50px;
+}
+.head-info ul li{
+  line-height: 50px;
+  vertical-align: middle;
+  text-align: left;
+}
+.head-info ul li img{
+  float: left;
+  margin-top: 10px;
+}
+.head__list{
+  margin-left: 10px;
+  font-size: 1.5em;
+  color: #fff;
+}
+.head-section__input{
+  max-width: 300px;
+  padding: 15px 20px !important;
+  font-size: 1em;
+  border-radius: 30px;
+  border: 0;
+}
+.head-section__button{
+  width: 200px;
+  padding: 15px 20px;
+  font-size: 1em;
+  border-radius: 30px;
+  background-color: #00a9a6;
+  border: 0;
+}
 /*------------05. START OF ABOUT SECTION----------*/
 
 .about-section h2
@@ -446,6 +497,10 @@ background-color: #edefef;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.testmonial-para img{
+  width: 100px;
+  height: 35px;
+}
 .testmonial-section img
 {
   margin: 0 auto;
@@ -454,25 +509,7 @@ background-color: #edefef;
   top: 35px;
   left: 0px;
 }
-.testmonial-para:after
-{
-  bottom: -31px;
-  position: relative;
-  left: 0rem;
-  content: '';
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 0px;
-  width: 20px;
-  height: 20px;
-  background-color: #fff;
-  bottom: -32px;
-  margin-bottom: -28px;
-  -webkit-transform: rotate(45deg);
-  transform: rotate(45deg);
-  border-right: 2px solid #fff;
-  border-bottom: 2px solid #fff;
-}
+
 .testmonial-info
 {
 
@@ -763,6 +800,7 @@ border-color: #475e66;
 }
 .plan
 {
+  min-height: 400px;
   -webkit-box-shadow: -12px 0px 28px -1px rgba(0,0,0,0.08);
   -moz-box-shadow: -12px 0px 28px -1px rgba(0,0,0,0.08);
   box-shadow: -12px 0px 28px -1px rgba(0,0,0,0.08);
@@ -817,6 +855,24 @@ border-color: #475e66;
 {
   margin-right:10px;
   font-size: 20px
+}
+
+.head-plan .plan-price{
+  width: 100%;
+  height: 70px;
+  line-height: 70px;
+  vertical-align: middle;
+  border-bottom: 1px solid #fff;
+  
+}
+.plan-price small{
+  font-size: 0.3em;
+}
+.plan-price span{
+  display: table-cell;
+  width: 30%;
+  text-align: center;
+  font-size: 0.8em !important;
 }
 
 /*------------13. START OF DOWNLOAD SECTION----------*/
@@ -956,7 +1012,6 @@ textarea {
   border-radius: 3px;
   border: 1px solid #D9D9D9;
 }
-
 button {
   display: inline-block;
   border-radius: 3px;
